@@ -1,0 +1,40 @@
+# ==============================================================================
+# PENGATURAN POSISI ORANG - SERVER PANIC! (3D OFFICE)
+# Edit file ini dengan Notepad / Editor Teks, lalu simpan atau muat di aplikasi.
+#
+# FORMAT BARIS:
+#   id = x, y, z, rot   # Catatan opsional
+#
+# KETERANGAN KOORDINAT DUNIA (meter & derajat):
+#   x   : Kiri (-) ke Kanan (+)   [Batas gedung: -14.5 .. 32.5]
+#   y   : Ketinggian lantai       [0 = berdiri/duduk normal di lantai]
+#   z   : Utara (-) ke Selatan (+) [Utara: -7.0..-1.5 | Koridor: -1.1..1.1 | Selatan: 1.5..7.0]
+#   rot : Arah hadap (derajat)    [0 = Selatan(+Z), 180 = Utara(-Z), 90 = Timur(+X), -90 = Barat(-X)]
+# ==============================================================================
+
+# --- PEMAIN (TEKNISI IT) ---
+teknisi = 0, 0, 0, 0                        # Teknisi IT (Koridor Utama)
+
+# --- DIREKTUR UTAMA ---
+boss_direktur = 30.35, 0, -6.32, 0          # Direktur Utama (R.15 Ruang Bos)
+
+# --- STAF & KARYAWAN KANTOR (19 ORANG) ---
+npc_r01_arif = -13.6, 0, -3.0, 26           # Arif (R.01 Server Room)
+npc_r02_raka = -4.45, 0, -5.6, 90           # Raka (R.02 Ruang NOC)
+npc_r03_maya = 1.45, 0, -4.35, 180          # Maya (R.03 Gudang Kabel)
+npc_r04_nadia = 5.15, 0, -4.88, 180         # Nadia (R.04 Lab Fiber & Crimping)
+npc_r05_budi = 11.1, 0, -5.55, 0            # Budi (R.05 Ruang Rapat)
+npc_r05_citra = 12.9, 0, -3.65, 180         # Citra (R.05 Ruang Rapat)
+npc_r05_farhan = 12.0, 0, -5.55, 0          # Farhan (R.05 Ruang Rapat)
+npc_corr_hendra = -1.35, 0, 0.78, -122      # Hendra (Koridor Utama)
+npc_r06_sari = -12.85, 0, 4.75, 180         # Sari (R.06 Resepsionis)
+npc_r07_laras = -6.75, 0, 5.55, 180         # Laras (R.07 Kerja Klien A)
+npc_r07_fajar = -5.25, 0, 5.55, 180         # Fajar (R.07 Kerja Klien A)
+npc_r08_putri = -0.75, 0, 5.55, 180         # Putri (R.08 Kerja Klien B)
+npc_r08_dimas = 0.75, 0, 5.55, 180          # Dimas (R.08 Kerja Klien B)
+npc_r09_bagus = 4.4, 0, 4.55, 0             # Bagus (R.09 Ruang Wi-Fi & AP)
+npc_r10_reza = 12.78, 0, 4.2, -90           # Reza (R.10 Pantry & Lounge)
+npc_r11_tina = 18.65, 0, -6.02, 180         # Tina (R.11 Dapur Karyawan)
+npc_r12_andi = 19.72, 0, 3.95, 90           # Andi (R.12 Toilet)
+npc_r13_hilman = 24.95, -0.34, -5.35, 180   # Hilman (R.13 Mushola)
+npc_r16_rina = 30.85, 0, 6.12, 180          # Rina (R.16 Ruang Santai)

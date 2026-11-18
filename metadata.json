@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix Remix Remix Remix Remix Remix SERVER PANIC! (Co-op Chaos)",
+  "description": "3D Isometric IT Networking Co-op Game Prototype, Game Design Document (GDD), and Three.js / Unity C# Architecture Studio.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
